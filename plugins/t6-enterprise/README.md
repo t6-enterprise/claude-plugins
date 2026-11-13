@@ -23,4 +23,11 @@ Run `/mcp`, choose `plugin:t6-enterprise:t6` and **Authenticate**. Your browser 
 
 - One tenant per install. To change it, run `/plugin configure t6-enterprise@t6-enterprise`, restart Claude Code and sign in again.
 - The plugin contains no tools and no credentials. It registers your tenant's `/mcp` endpoint; the tools are the ones your tenant lists.
-- Claude Desktop and Claude.ai do not load Claude Code plugins. There, add `https://<your-tenant>/mcp` as a custom connector.
+- If your Claude app can't use this plugin, add `https://<your-tenant>/mcp` as a custom connector instead.
+
+## Data and privacy
+
+The plugin sends requests only to the tenant address you configure (`<tenant>/mcp`). Tool calls and their results travel between Claude and your tenant under your own T6 Enterprise user; the plugin stores nothing except the tenant address in your Claude Code settings.
+
+- Privacy policy: https://tech6group.com/en/home-en/privacy-policy/
+- Support: https://tech6group.com/en/home-en/contact/
