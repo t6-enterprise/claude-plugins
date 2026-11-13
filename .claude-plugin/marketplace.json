@@ -1,0 +1,14 @@
+{
+  "name": "t6-enterprise",
+  "description": "Claude plugins for T6 Enterprise.",
+  "owner": {
+    "name": "T6 Enterprise"
+  },
+  "plugins": [
+    {
+      "name": "t6-enterprise",
+      "source": "./plugins/t6-enterprise",
+      "description": "Connects Claude to a T6 Enterprise tenant: sign in with your own user and use the Tai tools the tenant exposes through MCP."
+    }
+  ]
+}

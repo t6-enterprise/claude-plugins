@@ -1,0 +1,21 @@
+{
+  "name": "t6-enterprise",
+  "version": "1.0.0",
+  "description": "Connects Claude to a T6 Enterprise tenant: sign in with your own user and use the Tai tools the tenant exposes through MCP.",
+  "author": {
+    "name": "T6 Enterprise"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/t6-enterprise/claude-plugins",
+  "homepage": "https://github.com/t6-enterprise/claude-plugins/tree/main/plugins/t6-enterprise",
+  "icon": ".claude-plugin/icon.png",
+  "keywords": ["t6-enterprise", "planning", "fp&a", "consolidation", "mcp"],
+  "userConfig": {
+    "tenant_url": {
+      "type": "string",
+      "title": "Tenant URL",
+      "description": "Address of your T6 Enterprise tenant, without a trailing slash (for example https://acme.sysphera.com).",
+      "required": true
+    }
+  }
+}
