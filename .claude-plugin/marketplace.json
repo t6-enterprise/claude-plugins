@@ -8,7 +8,7 @@
     {
       "name": "t6-enterprise",
       "source": "./plugins/t6-enterprise",
-      "description": "Connects Claude to a T6 Enterprise tenant: sign in with your own user and use the Tai tools the tenant exposes through MCP."
+      "description": "Connects Claude to T6 Enterprise: select your company when signing in and use its Tai tools with your own permissions."
     }
   ]
 }

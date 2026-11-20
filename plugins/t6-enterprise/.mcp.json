@@ -2,7 +2,7 @@
   "mcpServers": {
     "t6": {
       "type": "http",
-      "url": "${user_config.tenant_url}/mcp"
+      "url": "https://tai-mcp.tech6cloud.com/mcp"
     }
   }
 }

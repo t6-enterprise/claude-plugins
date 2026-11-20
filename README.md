@@ -15,7 +15,9 @@ Install:
 or from a terminal:
 
 ```
-claude plugin install t6-enterprise --marketplace t6-enterprise/claude-plugins --config tenant_url=https://<your-tenant>
+claude plugin install t6-enterprise --marketplace t6-enterprise/claude-plugins
 ```
+
+The plugin uses the shared MCP address. Choose your company on the T6 Enterprise page when you authenticate; no tenant URL is needed during installation.
 
 Licensed under the [MIT License](LICENSE).

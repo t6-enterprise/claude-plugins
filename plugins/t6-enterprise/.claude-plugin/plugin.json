@@ -1,8 +1,8 @@
 {
   "name": "t6-enterprise",
   "displayName": "T6 Enterprise",
-  "version": "1.0.1",
-  "description": "Connects Claude to a T6 Enterprise tenant: sign in with your own user and use the Tai tools the tenant exposes through MCP.",
+  "version": "1.0.2",
+  "description": "Connects Claude to T6 Enterprise: select your company when signing in and use its Tai tools with your own permissions.",
   "author": {
     "name": "T6 Enterprise"
   },
@@ -13,13 +13,5 @@
   "supportUrl": "https://tech6group.com/en/home-en/contact/",
   "privacyPolicyUrl": "https://tech6group.com/en/home-en/privacy-policy/",
   "icon": ".claude-plugin/icon.png",
-  "keywords": ["t6-enterprise", "planning", "fp&a", "consolidation", "mcp"],
-  "userConfig": {
-    "tenant_url": {
-      "type": "string",
-      "title": "Tenant URL",
-      "description": "Address of your T6 Enterprise tenant, without a trailing slash (for example https://acme.sysphera.com).",
-      "required": true
-    }
-  }
+  "keywords": ["t6-enterprise", "planning", "fp&a", "consolidation", "mcp"]
 }
