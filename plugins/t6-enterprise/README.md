@@ -1,6 +1,6 @@
 # T6 Enterprise for Claude
 
-Connects Claude Code to your T6 Enterprise tenant. After you sign in with your own T6 Enterprise user, Claude can use the operations your tenant exposes through its MCP server: Explorer, forms, data forms, workflows, scenarios, security and more, plus `ask_tai`, which hands a multi-step request to Tai, the T6 Enterprise assistant. Every call runs with your permissions and is recorded in your tenant's audit trail.
+Connects Claude Code to your T6 Enterprise tenant. After you sign in, Claude can use your tenant's MCP tools for Explorer, forms, data tables, workflows, scenarios and more. Each call runs with your T6 Enterprise permissions. Tenants with audit logging enabled record tool calls in their audit trail.
 
 ## Install
 
