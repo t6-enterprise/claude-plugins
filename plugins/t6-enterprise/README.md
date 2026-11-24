@@ -44,9 +44,9 @@ Update the plugin and restart Claude Code to load the shared server URL. Authent
 
 ## Data and privacy
 
-Tech6 operates the shared MCP service. It receives the company name or tenant address you enter during selection. Your tenant's site handles sign-in and consent. MCP requests and responses, including tool inputs and results that may contain business data, pass through the shared service to and from your selected tenant. Claude Code manages the OAuth connection.
+Tech6 operates the shared MCP gateway and hosts the company selector. The gateway receives the company name or tenant address you enter and directs you to your tenant's site for sign-in and consent. The gateway handles every MCP request and response between Claude Code and your selected tenant, including tool inputs and results that may contain business data. Claude Code manages the OAuth connection.
 
-When tenant security auditing is enabled, its audit trail can record the user, client, tool name, duration, outcome and error details.
+The relay streams responses back to Claude Code. Its routing logs can record the request path, resolved tenant, source and destination environments, HTTP status and forwarding errors. When tenant security auditing is enabled, the tenant's audit trail can record the user, client, tool name, duration, outcome and error details. For questions about operational logging and retention, contact [Tech6's data protection officer](mailto:dpo@tech6group.com).
 
 - [Tech6 privacy policy](https://tech6group.com/en/home-en/privacy-policy/)
 - [Support](https://tech6group.com/en/home-en/contact/)
